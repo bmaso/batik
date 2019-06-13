@@ -179,7 +179,7 @@ public class JDKRegistryEntry extends AbstractRegistryEntry
         int height = -1;
         boolean imageError = false;
 
-        int IMG_BITS = ALLBITS|ERROR|ABORT;
+        int IMG_BITS = ALLBITS|FRAMEBITS|ERROR|ABORT;
 
         public void clear() {
             width=-1;
